@@ -1,0 +1,33 @@
+#btnDiv{
+    display: flex;
+    justify-content: left;
+    margin-left: 60px;
+    padding-top: 20px;
+    justify-content: space-between;
+    width: 90%;
+}
+#btnDiv div:first-child{
+    display: flex;
+    gap:20px;
+}
+button{
+    background-color: rgb(241 241 255 / 86%);
+    display: flex;
+    gap:10px;
+   align-items: center;
+    border-radius: 40px;
+    border: 0;
+    font-size: 18px;
+    padding: 16px 24px;
+}
+
+.active{
+    background-color:#370df4 !important;
+    color: white;
+}
+
+#viewAll{
+    border: 1px solid var(--darkBlueColor);
+    background-color: transparent;
+    color: var(--darkBlueColor)
+}

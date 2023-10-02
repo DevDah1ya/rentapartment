@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+  background-color: rgb(241 246 253 / 57%);
+}
+
+
+#cardContainer{
+  margin: 20px 4%;
+  width: 90%;
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px 40px;}
+
+  #readMore{
+    left: 50%;
+    background-color: var(--darkBlueColor);
+    color: white;
+  }
